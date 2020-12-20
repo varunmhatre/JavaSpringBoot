@@ -11,7 +11,7 @@ public class Computer implements Device {
 	
 	@Override
 	public void compile() {
-		System.out.println("Computing...");
+		System.out.println("PC Computing...");
 	}
 
 }

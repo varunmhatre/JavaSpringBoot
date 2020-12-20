@@ -17,12 +17,17 @@ public class DependancyInjectionExampleApplication {
 		
 		Alien a2 = context.getBean(Alien.class);
 		
+		Device d = context.getBean("laptop",Device.class);
+		
 		a2.show();		
 
 		System.out.println("a1 Laptop = " + a.getLaptop());
 		System.out.println("a2 Laptop = " + a2.getLaptop());
 		System.out.println("a1 Device = " + a.getDevice());
 		System.out.println("a2 Device = " + a2.getDevice());
+		
+		System.out.println("d Compile = ");
+		d.compile();
 }
 
 }

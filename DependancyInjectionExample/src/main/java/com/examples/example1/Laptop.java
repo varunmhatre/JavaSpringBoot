@@ -33,6 +33,6 @@ public class Laptop implements Device {
 	 */
 	public void compile()
 	{
-		System.out.println("Compiling...");
+		System.out.println("Laptop Compiling...");
 	}
 }
