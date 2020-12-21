@@ -1,12 +1,14 @@
-package com.examples.example3.models;
+package com.examples.example4.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class Alien {
 	
 	@Id
+	@GeneratedValue
 	private int aid;
 	private int anum;
 	private String aname;
